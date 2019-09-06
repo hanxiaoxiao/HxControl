@@ -13,6 +13,7 @@
 		BBBB86F7232204F900A2FF47 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BBBB86F6232204F900A2FF47 /* Assets.xcassets */; };
 		BBBB86FA232204F900A2FF47 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BBBB86F8232204F900A2FF47 /* LaunchScreen.storyboard */; };
 		BBBB86FD232204F900A2FF47 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BBBB86FC232204F900A2FF47 /* main.m */; };
+		BBBB87062322059300A2FF47 /* HxTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = BBBB87042322059300A2FF47 /* HxTextView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		BBBB86F9232204F900A2FF47 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BBBB86FB232204F900A2FF47 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BBBB86FC232204F900A2FF47 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BBBB87042322059300A2FF47 /* HxTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HxTextView.m; sourceTree = "<group>"; };
+		BBBB87052322059300A2FF47 /* HxTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HxTextView.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +61,7 @@
 		BBBB86EC232204F800A2FF47 /* HxControl */ = {
 			isa = PBXGroup;
 			children = (
+				BBBB87032322059300A2FF47 /* UI */,
 				BBBB86ED232204F800A2FF47 /* AppDelegate.h */,
 				BBBB86EE232204F800A2FF47 /* AppDelegate.m */,
 				BBBB86F0232204F800A2FF47 /* ViewController.h */,
@@ -69,6 +73,15 @@
 				BBBB86FC232204F900A2FF47 /* main.m */,
 			);
 			path = HxControl;
+			sourceTree = "<group>";
+		};
+		BBBB87032322059300A2FF47 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				BBBB87042322059300A2FF47 /* HxTextView.m */,
+				BBBB87052322059300A2FF47 /* HxTextView.h */,
+			);
+			path = UI;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -144,6 +157,7 @@
 				BBBB86F2232204F800A2FF47 /* ViewController.m in Sources */,
 				BBBB86FD232204F900A2FF47 /* main.m in Sources */,
 				BBBB86EF232204F800A2FF47 /* AppDelegate.m in Sources */,
+				BBBB87062322059300A2FF47 /* HxTextView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -287,6 +301,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = HxControl/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -303,6 +318,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = HxControl/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
